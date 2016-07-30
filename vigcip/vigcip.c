@@ -27,7 +27,7 @@ int hasInFile = 0;
 int hasOutFile = 0;
 int encryptTrue = 0;
 int decryptTrue = 0;
-char plaintext[1000];
+char *plaintext;
 char *keyword;   // temporary
 
 
@@ -131,6 +131,7 @@ int readOptions(int argc, char *argv[])
     argc -= optind;
     argv += optind;
 
+    return 0;	
 }
 
 void readFromStdin(char *text, int length)
