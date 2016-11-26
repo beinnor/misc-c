@@ -1,2 +1,3 @@
 # misc-c
-Miscellaneous c programs
+
+Miscellaneous small c programs, like hello-world and stuff
