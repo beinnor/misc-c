@@ -1,4 +1,7 @@
 CFLAGS=-Wall -g
 
+vigcip:
+	gcc vigcip.c -o bin/vigcip
+
 clean:
-	rm -f vigcip
+	rm -f bin/vigcip

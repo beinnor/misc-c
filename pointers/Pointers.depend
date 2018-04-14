@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1480045179 source:/home/ronnie/coding/Pointers/main.c
+	<stdio.h>
+	<stdlib.h>
+
